@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html><head>
+    <title>Animation</title>
+        <style>
+            .rdj1{
+                font-size: 40px;
+                text-align: center;
+                font-weight: bold;
+                color: green;
+                padding-bottom: 5px;
+                font-family: Times new roman;
+            }
+            .rdj2{
+                font-size: 17px;
+                font-weight: bold;
+                text-emphasis: center;
+                font-family: times new roman;
+            }
+            h2{
+                width: 350px;
+                animation-name: text;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                background-color: yellow;
+            }
+            #one{
+                animation-timing-function: ease;
+            }
+            #two{
+                animation-timing-function: linear;
+            }
+            #three{
+                animation-timing-function: ease-out;
+            }
+            #four{
+                animation-timing-function: ease-in;
+            }
+            #five{
+                animation-timing-function: ease-in-out;
+            }
+            @keyframes text{
+                from{
+                    margin-left: 60%;
+                }
+                to{
+                   margin-left: 0%; 
+                }
+            }
+        </style>
+</head>
+<body>
+    <div class="rdj1">chhotu1</div>
+    <div class="rdj2">chhotu2</div>
+    <h2 id="one">chhotu3</h2>
+    <h2 id="two">chhotu4</h2>
+    <h2 id="three">chhotu5</h2>
+    <h2 id="four">chhotu6</h2>
+    <h2 id="five">chhotu7</h2>
+</body>
+</html>
